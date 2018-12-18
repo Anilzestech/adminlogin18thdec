@@ -1,0 +1,114 @@
+body
+{
+    background-image: url(../image/back.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+  /* icon prefix focus color */
+  .input-field .prefix.active 
+  {
+    color: #00bcd4 ;
+  }
+  /* for checkbox */
+  [type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after 
+  {
+    margin-left: 8px;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: rgb(245, 48, 169);
+  }
+       
+  .mycontainer
+  {
+      width:95%;
+      margin:auto;
+  }
+
+/* for button */
+.btn {
+    text-transform: none;
+}
+/* for fixed footere */
+.myfooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index: 9999;
+   
+ }
+ .myfootercontainer
+  {
+     width:96%;
+     margin:auto;
+     
+  }
+
+ 
+ .myfooterhide
+ { 
+     float:right;
+ }
+
+ footer.page-footer {
+    padding-top: 0px;
+    position: relative;
+    z-index: 0;
+}
+
+/* for scroll bar */
+    /* width */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+        background-color: #F5F5F5;
+    }
+    
+    
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        background-color: #26c6da;;
+    }
+    
+    
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
+        background-color: #F5F5F5;
+    }
+
+
+
+
+
+/* for footer */
+@media only screen and (max-width:768px)
+ {
+     *
+     {
+         background:;
+     }
+     .myfooterhide
+     {
+         display:none;
+         float:none;
+     }
+     .myfooter-logo
+     {
+         display:none;
+     }
+     .myfootercontainer
+     {
+        width:90%;
+        margin:auto;
+        text-align: center;
+     }
+ }
